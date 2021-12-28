@@ -15,7 +15,7 @@ You need to install JQuery and Popper.js as shown below since Bootstrap 4 depend
 `npm i @popperjs/core --save`
 
 ## Adding Bootstrap to Webpage
-
+- `viewport` metatag ensures that the screen width is set to the device width and content is rendered according to this width.
 This will include Bootstrap CSS into your web page.
 ```
     <!-- Required meta tags always come first -->
@@ -27,7 +27,7 @@ This will include Bootstrap CSS into your web page.
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 ```
 
-At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins.
+At the bottom of the page just before </body> tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins.
 ```
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
